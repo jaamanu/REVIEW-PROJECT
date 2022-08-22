@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SURVEY PAGE</title>
+</head>
+<body>
+    <link rel="stylesheet" href="style.css">
+
+<div class="header">
+    <h1 id="title"> Our Survey Form</h1>
+    <p>Thank you for taking the time to help us improve the platform</p>
+</div>
+
+    <div class="row">
+    <p id="description">Kenny and James survey-form :)</p>
+    <form action="web url" id="survey-form">
+    </form>
+        <div class="first">
+        <br><label for="name" class="name">Enter your name:</label>
+        <br><input type="text" id="name" patern=".+." required placeholder="Surname" class="name">
+        </div>
+
+        <br><label for="email">Enter your email:</label>
+        <br><input type="email" id="email"
+       pattern=".@globex.com" required placeholder="example@email.com">
+
+       <br><label for="number">Enter your number:</label>
+        <br><input type="number" id="number" min="5" max="20" size="15" placeholder="123-456-789">
+
+        <button id="submit" type="submit">submit</button>
+ 
+        <br><label id="name-label">James-Kenny</label>
+        <br><label id="email-label">Jamie@gmail.com</label>
+        <br><label id="number-label">08025464789</label>
+        
+ 
+        <br><label><input type="radio" name="alice" value="Alice">Alice</label>
+        <label><input type="radio" name="alice" value="Samuel">kenny</label>
+        <label><input type="radio" name="alice" value="Number">Number</label>
+ 
+        <br><label><input type="checkbox" name="alice" value="alice">Alice</label>
+        <label><input type="checkbox" name="alice" value="kenny">Kenny</label>
+        <label><input type="checkbox" name="alice" value="date">Date</label>
+ 
+        <select title="option" name="Football Teams" id="dropdown">
+        <option value="Manchester United">Manchester United</option>
+        <option value="Chelsea">Chelsea</option>
+        </select>
+ 
+        <textarea title="text"></textarea>
+        </div>       
+ 
+     </form>
+        
+</body>
+</html>
